@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script type="text/javascript" src="jquery-1.11.1.js"></script>
+<script type="text/jscript" src="kineticjs5.1.js"></script>
+<script type="text/javascript" src="paises.js"></script>
+<script type="text/javascript" src="mapa.js" defer ></script>
+
+
+</script>
+<link rel="stylesheet" type="text/css" href="style_map.css" />
+
+<link rel="stylesheet" type="text/css" href="titillium-text/style.css">
+</head>
+
+<body>
+<div id="container"> </div>
+
+<div id="contendor_datos_lateral">
+
+
+
+<div id="oficinas" class="sombra">
+  
+    <h4 id="pais_mapa" onclick="despliega_menu()" > <?php echo JText::_('sel_reg') ?> </h4> 
+ 
+       <div id="desplagable_comerciales" class="sombra">
+ 
+ 	     <ul id="desplagable_comerciales_ul">
+         </ul>
+  
+        </div>
+   
+   
+        <div  id="datos_comerciales"  >
+        <ul>
+         <li>
+        <p id="nombre_comercial"><span class = 'icono_mapa'> <img class="icon_data" src='img/User.png' alt='comercial' width='16px' height='16px' style="opacity:0.4"/></span><span style="color:#CCC">Comercial Visiotech</span></p>
+         </li>
+         <li>
+        <p id="telefono_comercial"><span class = 'icono_mapa'> <img  class="icon_data" src='img/phone.png' alt='comercial' width='16px' style="opacity:0.4" height='16px'/></span><span style="color:#CCC">911836285</span></p>
+        </li>
+        <li>
+        <p id="email_comercial"><span class = 'icono_mapa'> <img class="icon_data" src='img/mail.png' alt='comercial' width='16px' style="opacity:0.4" height='16px'/></span><span style="color:#CCC">comercial@visiotech.es</span></p>
+        </li>
+        </ul>
+      </div>
+  
+  
+  
+</div>
+
+
+</div>
+
+<div id="contendor_secundario" ></div>
+
+
+</body>
+</html>

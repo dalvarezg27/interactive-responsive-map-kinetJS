@@ -1,0 +1,205 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family:'TitilliumText22L-Light',  sans-serif;
+	font-size:14px;
+}
+#container {
+	display: inline-block;
+	overflow: hidden;
+	max-height: 100%;
+	max-width: 100%;
+	background-image: url(img/backgrund_europe.jpg);
+	background-repeat: no-repeat;
+	background-size:contain;
+
+}
+#oficinas {
+	
+	display:block;
+	position:relative;
+	color: #555;
+
+height:auto;
+}
+
+.sombra { 		-webkit-box-shadow: 0px 0px 3px 0px rgba(50, 50, 50, 0.48);
+-moz-box-shadow:    0px 0px 3px 0px rgba(50, 50, 50, 0.48);
+box-shadow:         0px 0px 3px 0px rgba(50, 50, 50, 0.48);
+}
+
+.mail_comercial { color:#555;}
+
+
+#datos_comerciales {
+	width: 237px;
+	height:auto;
+}
+
+#contendor_datos_lateral { left: 20px;
+    position: absolute;
+    top: 20px;}
+
+
+.icon_data{ margin-bottom: -2px;}
+
+#datos_comerciales ul {
+	line-height: 10px;
+	list-style: none outside none;
+	margin: 0;
+	padding: 0;
+}
+#datos_comerciales ul li {
+	border-bottom: 1px solid #E5E5E5;
+}
+#datos_comerciales ul li p {
+	padding-left: 5px;
+	font-size: 14px;
+}
+#datos_comerciales ul li a {
+	padding-left: 5px; color:#555;
+}
+
+.icono_mapa { margin-right:5px; margin-bottom:-2px;  }
+
+#pais_mapa { background-image:url(img/arrow_bk.png);margin: 0; background-color: #868686;
+	color: #fff;
+	font-size: 20px;
+	font-weight: lighter;
+	margin-bottom: 0;
+	padding: 5px 0 5px 10px;
+	cursos:pointer;
+	width: 230px;}
+
+
+#desplegable_comerciales_icono { display:inline; cursor:pointer; }
+
+#desplagable_comerciales{ 
+ z-index:2;
+ 	display: none;
+	overflow: hidden;
+width: 240px;
+position: absolute;
+z-index: 79;
+
+	
+	}
+
+#desplagable_comerciales_ul{ margin:0px; padding:0px; list-style:none;}
+
+.desplagable_comerciales_ul_p { margin:0px; padding:0px; padding:8px 5px 8px 15px; width: 250px; border-bottom: 1px solid #DDD; background-color: #FFF; cursor:pointer;}
+
+
+
+.desplagable_comerciales_ul_p:hover { background-color:#CC5275; color:#FFF;  }
+
+.desplagable_comerciales_ul_li { margin:0px; padding:0px; }
+
+#mapa_container { width:860px;   height:550px;  } 
+
+#contendor_secundario {}
+
+
+	 
+ @media screen and (max-width:600px) {
+	
+	
+#container { display:none;}
+	
+	
+#oficinas {
+	
+	display:block;
+	;
+	
+   
+}
+
+
+
+#oficinas_h3 {
+	color: #cc5275;
+	font-size: 54px;
+	font-weight: lighter;
+	line-height: 0;
+	margin-bottom: 42px;
+	text-align:center;
+}
+
+#datos_comerciales {
+	width: 100%;
+	
+}
+
+#contendor_datos_lateral { 
+
+    left: 0px;
+   position: relative;
+    top: 0;
+	
+	}
+
+
+
+#datos_comerciales ul {
+	line-height: 25px;
+	list-style: none outside none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+#datos_comerciales ul li {
+	border-bottom: 1px solid #E5E5E5; display: block; width:100%;
+}
+#datos_comerciales ul li p {
+	padding-left: 5px;
+	font-size: 18px;
+}
+#datos_comerciales ul li a {
+	padding-left: 5px;
+}
+
+.icono_mapa { margin-right:5px; margin-bottom:-2px; }
+
+#pais_mapa { background-image:url(img/arrow_bk.png);margin: 0; background-color: #868686;
+	color: #fff;
+	font-size: 20px;
+	font-weight: lighter;
+	margin-bottom: 0;
+	 font-size: 25px;
+    padding: 10px 0px 10px 0px;
+	cursos:pointer;
+	width: 100%;
+	background-repeat:no-repeat;
+	background-position: right center;
+	text-align:center;}
+
+
+#desplegable_comerciales_icono { display:inline; cursor:pointer; }
+
+#desplagable_comerciales{ 
+
+ 	display: none;
+width: 100%;
+position: relative;
+height: 187px;
+overflow:scroll;
+
+
+	}
+	
+#desplagable_comerciales_ul{ margin:0px; padding:0px; list-style:none; width:100%; }
+
+.desplagable_comerciales_ul_p {    font-size: 18px;
+    padding: 10px 5px 10px 15px;
+	 width: 100%; display:block;
+	 }
+
+.desplagable_comerciales_ul_li {  padding:0px; display:inline; width:100%; }
+
+	
+	 }
